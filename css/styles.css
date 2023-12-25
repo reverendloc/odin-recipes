@@ -1,0 +1,24 @@
+* {
+  background-color: lightgray;
+}
+
+img {
+  height: 400px;
+  width: auto;
+}
+
+.heading {
+  font-family: "Quicksand", serif;
+  font-size: 32px;
+  line-height: 38px;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+
+.body {
+  font-family: "Lato", Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: 0.2px;
+  line-height: 32px;
+}
