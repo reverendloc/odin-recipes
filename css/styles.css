@@ -1,5 +1,11 @@
-* {
+html {
+  box-sizing: border-box;
+}
+*, 
+*::before,
+*::after {
   background-color: lightgray;
+  box-sizing: inherit;
 }
 
 img {
@@ -13,6 +19,7 @@ img {
   line-height: 38px;
   letter-spacing: 1px;
   font-weight: 700;
+  text-align: center;
 }
 
 .body {
@@ -21,4 +28,16 @@ img {
   font-weight: 300;
   letter-spacing: 0.2px;
   line-height: 32px;
+}
+
+.ingredients_list,
+.recipe_steps {
+  border: 5px solid darkgreen;
+  margin: 0px auto;
+  width: 90%;
+  border-radius: 25px
+}
+
+.recipe_steps li {
+  padding: .25rem 0;
 }
