@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
 }
-*, 
+*,
 *::before,
 *::after {
   background-color: lightgray;
@@ -32,12 +32,16 @@ img {
 
 .ingredients_list,
 .recipe_steps {
+  background-color: darkgray;
   border: 5px solid darkgreen;
+  border-radius: 25px;
   margin: 0px auto;
+  padding-left: 2.5em;
   width: 90%;
-  border-radius: 25px
 }
 
-.recipe_steps li {
-  padding: .25rem 0;
+.recipe_steps li,
+.ingredients_list li {
+  padding: 0.25rem 0rem;
+  background-color: inherit;
 }
