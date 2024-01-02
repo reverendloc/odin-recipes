@@ -9,8 +9,10 @@ html {
 }
 
 img {
+  display: block;
   height: 400px;
   width: auto;
+  margin: 0 auto;
 }
 
 .heading {
@@ -44,4 +46,21 @@ img {
 .ingredients_list li {
   padding: 0.25rem 0rem;
   background-color: inherit;
+}
+
+.recipe_links ul {
+  list-style: none;
+}
+
+.recipe_links li {
+  width: 50%;
+  text-align: center;
+  border: 1px solid;
+  border-radius: 25px;
+  margin: 0.2em auto;
+}
+
+.recipe_links a {
+  text-decoration: none;
+  padding: 0 30%;
 }
