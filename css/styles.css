@@ -54,13 +54,15 @@ img {
 
 .recipe_links li {
   width: 50%;
-  text-align: center;
-  border: 1px solid;
-  border-radius: 25px;
   margin: 0.2em auto;
 }
 
 .recipe_links a {
+  display: block;
   text-decoration: none;
   padding: 0 30%;
+  background-color: darkgray;
+  border: 5px solid darkgreen;
+  border-radius: 25px;
+  text-align: center;
 }
