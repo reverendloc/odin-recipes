@@ -38,13 +38,14 @@ img {
   border: 5px solid darkgreen;
   border-radius: 25px;
   margin: 0px auto;
-  padding-left: 2.5em;
+  padding-left: 2.5rem;
   width: 90%;
 }
 
-.recipe_steps li,
-.ingredients_list li {
-  padding: 0.25rem 0rem;
+.ingredients_list li,
+.recipe_steps li {
+  border-radius: 25px;
+  padding: 0.25rem .5rem;
   background-color: inherit;
 }
 
@@ -54,13 +55,14 @@ img {
 
 .recipe_links li {
   width: 50%;
-  margin: 0.2em auto;
+  margin: 0.2rem auto;
 }
 
 .recipe_links a {
   display: block;
   text-decoration: none;
-  padding: 0 30%;
+  padding: 1rem 0;
+  height: 5rem;
   background-color: darkgray;
   border: 5px solid darkgreen;
   border-radius: 25px;
